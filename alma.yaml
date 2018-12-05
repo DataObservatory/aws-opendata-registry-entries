@@ -11,7 +11,7 @@ Tags:
   - aws-pds
 License: XXXXXX
 Resources:
-  - Description: Project data files XXXXX
+  - Description: ALMA public data files
     ARN: arn:aws:s3:::almapubdata
     Region: TBD
     Type: S3 Bucket 
