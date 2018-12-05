@@ -1,8 +1,8 @@
 Name: Atacama Large Milimetre and submillimetre Array Public Data
 Description: |
-Documentation: readme_alma.html
-Contact: juande.santander-vela@industriasinteligentes.cl
   TBW # To Be Written (this will include data formats)
+Documentation: readme_alma.html # in the same folder
+Contact: juande.santander-vela@industriasinteligentes.cl # TBC
 UpdateFrequency: Weekly # TBC
 Tags:
   - astronomy
