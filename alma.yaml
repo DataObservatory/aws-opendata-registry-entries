@@ -1,0 +1,26 @@
+Name: Atacama Large Milimetre and submillimetre Array Public Data
+Description: |
+  XXXXXXX
+Documentation: http://xxxxx
+Contact: juande.santander-vela@industriasinteligentes.cl
+UpdateFrequency: Hourly
+Tags:
+  - astronomy
+  - radio
+  - sub-mm
+  - aws-pds
+License: XXXXXX
+Resources:
+  - Description: Project data files XXXXX
+    ARN: arn:aws:s3:::almapubdata
+    Region: TBD
+    Type: S3 Bucket 
+  - Description: Notifications for new data
+    ARN: TBD
+    Region: TBD
+    Type: SNS New Data 
+DataAtWork:
+  - Title: Making ALMA Public Data Available on AWS
+    URL: TBW
+    AuthorName: Juande Santander-Vela
+    AuthorURL: https://twitter.com/juandesant
