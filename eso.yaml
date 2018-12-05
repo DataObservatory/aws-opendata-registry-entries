@@ -1,18 +1,20 @@
-Name: Atacama Large Milimetre and submillimetre Array Public Data
+Name: European Southern Observatory Public Data
 Description: |
   TBW # To Be Written (this will include data formats)
-Documentation: readme_alma.html # in the same folder
+Documentation: readme_eso.html # in the same folder
 Contact: juande.santander-vela@industriasinteligentes.cl # TBC
 UpdateFrequency: Weekly # TBC
 Tags:
   - astronomy
   - radio
   - sub-mm
+  - optical
+  - infrarred
   - aws-pds
 License: XXXXXX
 Resources:
-  - Description: ALMA public data files
-    ARN: arn:aws:s3:::almapubdata
+  - Description: ESO public data files
+    ARN: arn:aws:s3:::esopubdata
     Region: TBD
     Type: S3 Bucket 
   - Description: Notifications for new data
@@ -20,7 +22,7 @@ Resources:
     Region: TBD
     Type: SNS New Data 
 DataAtWork:
-  - Title: Making ALMA Public Data Available on AWS
+  - Title: Making ESO Public Data Available on AWS
     URL: TBW
     AuthorName: Juande Santander-Vela
     AuthorURL: https://twitter.com/juandesant
